@@ -1,0 +1,917 @@
+{
+  "id": "089419ca-45f1-41ec-b626-0968b3013850",
+  "version": "2.0",
+  "name": "SIMASTER",
+  "url": "https://simaster.ugm.ac.id/portal/data_rekening/add",
+  "tests": [{
+    "id": "11dbe57b-081f-4fc9-92ab-4682d6cf7594",
+    "name": "Invalid Klaim Data Mahasiswa/Orang Tua",
+    "commands": [{
+      "id": "63670463-17c7-4c3c-80a2-cadcd91b9ae5",
+      "comment": "",
+      "command": "open",
+      "target": "https://simaster.ugm.ac.id/portal/klaim_mahasiswa/view",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "087911a4-d646-45c0-9e81-81af378942a0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5bd75a1-c1bc-4c3d-be3d-e19950163b24",
+      "comment": "",
+      "command": "type",
+      "target": "name=nim",
+      "targets": [
+        ["name=nim", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='nim']", "xpath:attributes"],
+        ["xpath=//form[@id='form_modal']/div/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "231323"
+    }, {
+      "id": "8df74d0f-a735-41a6-84b5-0891bf610066",
+      "comment": "",
+      "command": "click",
+      "target": "name=prodi",
+      "targets": [
+        ["name=prodi", "name"],
+        ["css=.form-group:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//input[@name='prodi']", "xpath:attributes"],
+        ["xpath=//form[@id='form_modal']/div/div/div/div[2]/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1d099f3-444c-4766-931c-0883f19f3582",
+      "comment": "",
+      "command": "type",
+      "target": "name=prodi",
+      "targets": [
+        ["name=prodi", "name"],
+        ["css=.form-group:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//input[@name='prodi']", "xpath:attributes"],
+        ["xpath=//form[@id='form_modal']/div/div/div/div[2]/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "rwfwef"
+    }, {
+      "id": "be783f7d-9a99-4ca0-b218-4b7231cd6545",
+      "comment": "",
+      "command": "click",
+      "target": "name=tanggal",
+      "targets": [
+        ["name=tanggal", "name"],
+        ["css=.datepi", "css:finder"],
+        ["xpath=//input[@name='tanggal']", "xpath:attributes"],
+        ["xpath=//form[@id='form_modal']/div/div/div/div[2]/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b459f98-6ad3-4626-ae11-f63659a55f7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > .day:nth-child(4)",
+      "targets": [
+        ["css=tr:nth-child(4) > .day:nth-child(4)", "css:finder"],
+        ["xpath=//tr[4]/td[4]", "xpath:position"],
+        ["xpath=//td[contains(.,'20')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8ed79f7-4645-42a4-b9d2-294a175bd3d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-right",
+      "targets": [
+        ["css=.text-right", "css:finder"],
+        ["xpath=//form[@id='form_modal']/div/div/div/div[2]/div[7]/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edcb6489-8df1-42bb-8c0c-aa29f4c8fb1d",
+      "comment": "",
+      "command": "click",
+      "target": "id=file",
+      "targets": [
+        ["id=file", "id"],
+        ["name=ktm", "name"],
+        ["css=#file", "css:finder"],
+        ["xpath=//input[@id='file']", "xpath:attributes"],
+        ["xpath=//form[@id='form_modal']/div/div/div/div[2]/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec51cc60-9fa1-480f-9173-f442d3a0ffe6",
+      "comment": "",
+      "command": "type",
+      "target": "id=file",
+      "targets": [
+        ["id=file", "id"],
+        ["name=ktm", "name"],
+        ["css=#file", "css:finder"],
+        ["xpath=//input[@id='file']", "xpath:attributes"],
+        ["xpath=//form[@id='form_modal']/div/div/div/div[2]/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\WhatsApp Image 2023-12-02 at 05.08.24 (1).jpeg"
+    }, {
+      "id": "8c498d8f-2142-4ff5-96ad-008e7b163591",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//form[@id='form_modal']/div/div/div/div[2]/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Simpan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e011d43-fb25-42b8-97d5-b4e0e5bcc955",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//form[@id='form_modal']/div/div/div/div[2]/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Simpan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1afc644d-7199-4b41-84fb-450653bfde10",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//form[@id='form_modal']/div/div/div/div[2]/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Simpan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1aebd030-c965-4d54-af30-bd316e22b7e6",
+    "name": "Invalid Data Rekening",
+    "commands": [{
+      "id": "c0529fe2-c1b9-4f10-a6c9-a61491e42d3a",
+      "comment": "",
+      "command": "open",
+      "target": "https://simaster.ugm.ac.id/portal/data_rekening/add",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44291d19-2265-45f9-9443-1d02a64cf56f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86251611-42ad-47d3-a4ac-5bb40a173186",
+      "comment": "",
+      "command": "click",
+      "target": "id=select2-bankId-l3-container",
+      "targets": [
+        ["id=select2-bankId-l3-container", "id"],
+        ["css=#select2-bankId-l3-container", "css:finder"],
+        ["xpath=//span[@id='select2-bankId-l3-container']", "xpath:attributes"],
+        ["xpath=//form[@id='formUbah']/div/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4cfe177-1575-46e3-9982-4ef98b59713f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Ace"
+    }, {
+      "id": "12daaf8f-7767-4eef-8a81-aa45c5f34c62",
+      "comment": "",
+      "command": "click",
+      "target": "name=bankCabang",
+      "targets": [
+        ["name=bankCabang", "name"],
+        ["css=.form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='bankCabang']", "xpath:attributes"],
+        ["xpath=//form[@id='formUbah']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3fb44d2-d210-4ea9-a9a5-6073e06f7043",
+      "comment": "",
+      "command": "type",
+      "target": "name=bankCabang",
+      "targets": [
+        ["name=bankCabang", "name"],
+        ["css=.form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='bankCabang']", "xpath:attributes"],
+        ["xpath=//form[@id='formUbah']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Yogya"
+    }, {
+      "id": "43eb2218-0923-437f-9aa3-c17de3114b4b",
+      "comment": "",
+      "command": "click",
+      "target": "name=noRekening",
+      "targets": [
+        ["name=noRekening", "name"],
+        ["css=.form-group:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//input[@name='noRekening']", "xpath:attributes"],
+        ["xpath=//form[@id='formUbah']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a476e145-6aec-41e4-96c7-54e2c7c4e8bf",
+      "comment": "",
+      "command": "type",
+      "target": "name=noRekening",
+      "targets": [
+        ["name=noRekening", "name"],
+        ["css=.form-group:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//input[@name='noRekening']", "xpath:attributes"],
+        ["xpath=//form[@id='formUbah']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "12421421421"
+    }, {
+      "id": "a738cf9b-8e83-4192-a0ed-5f40427e7d7f",
+      "comment": "",
+      "command": "click",
+      "target": "id=cekRekening",
+      "targets": [
+        ["id=cekRekening", "id"],
+        ["css=#cekRekening", "css:finder"],
+        ["xpath=//button[@id='cekRekening']", "xpath:attributes"],
+        ["xpath=//form[@id='formUbah']/div[4]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cek')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "819e094a-5648-4939-b71e-d3fddffc17a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn",
+      "targets": [
+        ["css=.modal-footer > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[10]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0568f40f-7e68-47b6-8731-fa9cab332ac4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.custom-control:nth-child(1)",
+      "targets": [
+        ["css=.custom-control:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='formUbah']/div[6]/div/label", "xpath:idRelative"],
+        ["xpath=//div[6]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Tidak Aktif')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdb74838-491b-4afc-9703-162402e9c4f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-info",
+      "targets": [
+        ["css=.btn-info", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formUbah']/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Simpan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c1762345-626c-4336-9843-d74dcd7604bc",
+    "name": "Valid Data Rekening",
+    "commands": [{
+      "id": "4240d98f-1323-42e7-b9de-52e5250bd490",
+      "comment": "",
+      "command": "open",
+      "target": "https://simaster.ugm.ac.id/portal/data_rekening/add",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd1879e5-32e7-4f10-b9c1-e703419b7135",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e551ac71-0a1d-4ce6-b05d-5de60d09a291",
+      "comment": "",
+      "command": "click",
+      "target": "id=select2-bankId-hx-container",
+      "targets": [
+        ["id=select2-bankId-hx-container", "id"],
+        ["css=#select2-bankId-hx-container", "css:finder"],
+        ["xpath=//span[@id='select2-bankId-hx-container']", "xpath:attributes"],
+        ["xpath=//form[@id='formUbah']/div/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4dd31dc-d72b-4dac-8310-f9da40591344",
+      "comment": "",
+      "command": "type",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Ace"
+    }, {
+      "id": "7863eec7-0eda-471a-9d5a-19f60d2d911f",
+      "comment": "",
+      "command": "click",
+      "target": "name=bankCabang",
+      "targets": [
+        ["name=bankCabang", "name"],
+        ["css=.form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='bankCabang']", "xpath:attributes"],
+        ["xpath=//form[@id='formUbah']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa2bfcdc-4fbe-4178-8a56-7715fd9eced0",
+      "comment": "",
+      "command": "type",
+      "target": "name=bankCabang",
+      "targets": [
+        ["name=bankCabang", "name"],
+        ["css=.form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='bankCabang']", "xpath:attributes"],
+        ["xpath=//form[@id='formUbah']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Unsam"
+    }, {
+      "id": "f5bbca06-1531-4b6f-883a-fbc6e8c04f4c",
+      "comment": "",
+      "command": "click",
+      "target": "name=noRekening",
+      "targets": [
+        ["name=noRekening", "name"],
+        ["css=.form-group:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//input[@name='noRekening']", "xpath:attributes"],
+        ["xpath=//form[@id='formUbah']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d29e1955-80b3-43cf-9b16-e02be9a1ed55",
+      "comment": "",
+      "command": "type",
+      "target": "name=noRekening",
+      "targets": [
+        ["name=noRekening", "name"],
+        ["css=.form-group:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//input[@name='noRekening']", "xpath:attributes"],
+        ["xpath=//form[@id='formUbah']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "53602400005895"
+    }, {
+      "id": "d7dba8b2-0933-4f82-adfa-eb6812b3e591",
+      "comment": "",
+      "command": "click",
+      "target": "id=cekRekening",
+      "targets": [
+        ["id=cekRekening", "id"],
+        ["css=#cekRekening", "css:finder"],
+        ["xpath=//button[@id='cekRekening']", "xpath:attributes"],
+        ["xpath=//form[@id='formUbah']/div[4]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cek')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32171192-4cc9-4f9e-af47-2fbf29bbf312",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pilih",
+      "targets": [
+        ["linkText=Pilih", "linkText"],
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=//form[@id='formUbah']/div[5]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25f8301b-4e40-457b-a80a-d712325fb494",
+      "comment": "",
+      "command": "click",
+      "target": "css=tbody .text-center",
+      "targets": [
+        ["css=tbody .text-center", "css:finder"],
+        ["xpath=//div[@id='modal-data-basic']/div[2]/div[2]/div/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "463bb729-b0a6-4506-aff8-b092ed4d0c00",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-xs",
+      "targets": [
+        ["css=.btn-xs", "css:finder"],
+        ["xpath=//div[@id='modal-data-basic']/div[2]/div[2]/div/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[20]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c90002e4-1543-4950-adc7-69612ac1f968",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-xs",
+      "targets": [
+        ["css=.btn-xs", "css:finder"],
+        ["xpath=//div[@id='modal-data-basic']/div[2]/div[2]/div/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[20]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "441aa8e4-e862-418a-a4e1-651fd2066363",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-xs",
+      "targets": [
+        ["css=.btn-xs", "css:finder"],
+        ["xpath=//div[@id='modal-data-basic']/div[2]/div[2]/div/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[20]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39fa65fd-864a-4391-8b1b-b98501fac52e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.custom-control:nth-child(1)",
+      "targets": [
+        ["css=.custom-control:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='formUbah']/div[6]/div/label", "xpath:idRelative"],
+        ["xpath=//div[6]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Tidak Aktif')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db9824cd-d262-4118-a0a6-567934dedc0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-info",
+      "targets": [
+        ["css=.btn-info", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formUbah']/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Simpan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8222fca5-7874-473a-834d-adcb9effae37",
+    "name": "Invalid Klaim Data Mahasiswa",
+    "commands": [{
+      "id": "bbebde1d-7f3d-4390-b156-7c8b762297cb",
+      "comment": "",
+      "command": "open",
+      "target": "https://simaster.ugm.ac.id/portal/klaim_mahasiswa/view",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa853822-4876-493d-b11c-f38dbe2e3f61",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f6f1ff4-8c6f-463a-ac29-19c2ce579e2c",
+      "comment": "",
+      "command": "click",
+      "target": "name=nim",
+      "targets": [
+        ["name=nim", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='nim']", "xpath:attributes"],
+        ["xpath=//form[@id='form_modal']/div/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e70dcc5-0666-45e2-8125-569b2ebf85d9",
+      "comment": "",
+      "command": "type",
+      "target": "name=nim",
+      "targets": [
+        ["name=nim", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='nim']", "xpath:attributes"],
+        ["xpath=//form[@id='form_modal']/div/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "23/519450/NUGM/01190"
+    }, {
+      "id": "c5eb9128-960d-4120-bbc4-c083c29df063",
+      "comment": "",
+      "command": "click",
+      "target": "name=prodi",
+      "targets": [
+        ["name=prodi", "name"],
+        ["css=.form-group:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//input[@name='prodi']", "xpath:attributes"],
+        ["xpath=//form[@id='form_modal']/div/div/div/div[2]/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0594be3d-2aa5-46c9-a95b-90818bc9be97",
+      "comment": "",
+      "command": "type",
+      "target": "name=prodi",
+      "targets": [
+        ["name=prodi", "name"],
+        ["css=.form-group:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//input[@name='prodi']", "xpath:attributes"],
+        ["xpath=//form[@id='form_modal']/div/div/div/div[2]/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "ND UGM"
+    }, {
+      "id": "ae7b6f8f-d6b9-423a-a304-802582b3396c",
+      "comment": "",
+      "command": "click",
+      "target": "name=tanggal",
+      "targets": [
+        ["name=tanggal", "name"],
+        ["css=.datepi", "css:finder"],
+        ["xpath=//input[@name='tanggal']", "xpath:attributes"],
+        ["xpath=//form[@id='form_modal']/div/div/div/div[2]/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d19c0bb2-6c92-405c-bcd2-c6352f1fd7da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-days .prev",
+      "targets": [
+        ["css=.datepicker-days .prev", "css:finder"],
+        ["xpath=//tr[2]/th", "xpath:position"],
+        ["xpath=//th[contains(.,'«')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7368ca70-6688-4484-bbd7-d1e187e363d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-days .datepicker-switch",
+      "targets": [
+        ["css=.datepicker-days .datepicker-switch", "css:finder"],
+        ["xpath=//th[2]", "xpath:position"],
+        ["xpath=//th[contains(.,'November 2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d857db0-cf37-4181-b414-3c985b0a2d07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27034caf-c8a6-410f-99a3-fa9b55527abf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25f0748d-38f1-48c8-acfa-4a24a1592597",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bd3b2b2-6094-4d21-9192-ceda8cd3aa0d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2e63366-df82-4a49-b669-ec812744be26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ed41c71-aaba-45af-aec1-f48b2d6c5b42",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddc9a0c7-848f-40b4-a895-4b3ae2d73eae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40506711-16af-432d-aa22-27464e4c11ae",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4455141f-4f45-4e5a-861b-52e9cafd105f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc45a1bf-d34b-4081-9195-7f1a2fc0a7fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6845126-ae22-47ec-b2b3-d29caf7df3e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b7172a1-ccf4-4825-9b7f-e071580de9bc",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "105f5bc5-62a4-4d3a-88c3-25a38cbcb8b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b9a1143-7402-4465-a672-b4314f9164d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30df535e-897b-4f07-a233-9ede283acf18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2383073-b01e-457c-b4a3-b6bf75565556",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccc71248-af50-45cd-a299-7545736f1112",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aba2fe47-2c3b-4e42-a550-67c7e8722941",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf04f52d-a8be-432d-8900-5614dfe2907b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dd4be18-abdc-4887-b105-0918f485284a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd7c1f54-789c-46a3-9617-a9dcbb97c351",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "491b89f2-3a74-4490-8d25-84e3868f98ac",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1b716e5-ae07-4b5a-86c6-875342ddd8d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b2d9ebd-db43-4bbe-b827-79fa5f5ace00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-months .prev",
+      "targets": [
+        ["css=.datepicker-months .prev", "css:finder"],
+        ["xpath=//div[2]/table/thead/tr[2]/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d3834f7-6edc-4a9c-bd8b-c9b6b49f9a5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.month:nth-child(2)",
+      "targets": [
+        ["css=.month:nth-child(2)", "css:finder"],
+        ["xpath=//td/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Feb')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1245b47e-d239-4523-b9c8-e8a523de9ba7",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > .day:nth-child(6)",
+      "targets": [
+        ["css=tr:nth-child(4) > .day:nth-child(6)", "css:finder"],
+        ["xpath=//tr[4]/td[6]", "xpath:position"],
+        ["xpath=//td[contains(.,'20')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c4b31c7-2098-4568-9b2a-88a6c1f28e41",
+      "comment": "",
+      "command": "click",
+      "target": "id=file",
+      "targets": [
+        ["id=file", "id"],
+        ["name=ktm", "name"],
+        ["css=#file", "css:finder"],
+        ["xpath=//input[@id='file']", "xpath:attributes"],
+        ["xpath=//form[@id='form_modal']/div/div/div/div[2]/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "339b273d-77ae-459d-9dc5-a779a48e3bdb",
+      "comment": "",
+      "command": "type",
+      "target": "id=file",
+      "targets": [
+        ["id=file", "id"],
+        ["name=ktm", "name"],
+        ["css=#file", "css:finder"],
+        ["xpath=//input[@id='file']", "xpath:attributes"],
+        ["xpath=//form[@id='form_modal']/div/div/div/div[2]/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\e-ktm.jpeg"
+    }, {
+      "id": "dbe14c58-f3d7-46ee-8c3c-8f4ee98fdb7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//form[@id='form_modal']/div/div/div/div[2]/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Simpan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e5f6ced7-3d80-4e4b-ade4-d8edf16ab7ff",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["11dbe57b-081f-4fc9-92ab-4682d6cf7594"]
+  }],
+  "urls": ["https://simaster.ugm.ac.id/portal/klaim_mahasiswa/", "https://simaster.ugm.ac.id/portal/data_rekening/add"],
+  "plugins": []
+}
