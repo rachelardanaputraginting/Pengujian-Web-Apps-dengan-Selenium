@@ -1,0 +1,21 @@
+{
+  "id": "17dd72e1-d3c2-4894-ae8e-cf000e7128a9",
+  "version": "2.0",
+  "name": "Update Profil Instagram",
+  "url": "https://www.instagram.com",
+  "tests": [{
+    "id": "edab0789-84f1-4fea-b9bb-ebedd3d23368",
+    "name": "Update Profil",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "8700a2db-326e-4eaf-aa68-9dd2178069f4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["edab0789-84f1-4fea-b9bb-ebedd3d23368"]
+  }],
+  "urls": ["https://www.instagram.com/"],
+  "plugins": []
+}

@@ -1,0 +1,270 @@
+{
+  "id": "7db6c28b-9b77-4e89-961b-cf981e982817",
+  "version": "2.0",
+  "name": "Download Youtube",
+  "url": "https://www.instagram.com/juneidy__/",
+  "tests": [{
+    "id": "c70a34ab-502a-4134-933b-64e0f29a2a21",
+    "name": "download youtube",
+    "commands": [{
+      "id": "6a82787d-6229-40d2-bf30-2c3d29736141",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.youtube.com/watch?v=FgRePp-_U44",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c63fe67e-b5b9-4cd9-8438-6a9b9f06d455",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1454x914",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc3f7301-74cc-45ac-b167-339ea5a771a1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=video-title",
+      "targets": [
+        ["id=video-title", "id"],
+        ["css=.style-scope:nth-child(1) > #dismissible #video-title", "css:finder"],
+        ["xpath=//span[@id='video-title']", "xpath:attributes"],
+        ["xpath=//div[@id='dismissible']/div/div/a/h3/span", "xpath:idRelative"],
+        ["xpath=//a/h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Slick Back Dance Tiktok Compilation #5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b58ac5ed-f4f8-4695-8264-b93d6918d381",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=video-title",
+      "targets": [
+        ["id=video-title", "id"],
+        ["css=.style-scope:nth-child(1) > #dismissible #video-title", "css:finder"],
+        ["xpath=//span[@id='video-title']", "xpath:attributes"],
+        ["xpath=//div[@id='dismissible']/div/div/a/h3/span", "xpath:idRelative"],
+        ["xpath=//a/h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Slick Back Dance Tiktok Compilation #5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50440d62-70c1-48b3-b6ec-1af810475d81",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(4) > #dismissible .yt-core-image--fill-parent-height",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #dismissible .yt-core-image--fill-parent-height", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/FTkbESn-ESA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7AbznQEI5CqAKQFfAawgBBPY5YA')]", "xpath:img"],
+        ["xpath=(//a[@id='thumbnail']/yt-image/img)[6]", "xpath:idRelative"],
+        ["xpath=//ytd-compact-video-renderer[4]/div/ytd-thumbnail/a/yt-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec2ae4ca-577a-4259-bdf9-705ab4941dd2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(4) > #dismissible .yt-core-image--fill-parent-height",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #dismissible .yt-core-image--fill-parent-height", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/FTkbESn-ESA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7AbznQEI5CqAKQFfAawgBBPY5YA')]", "xpath:img"],
+        ["xpath=(//a[@id='thumbnail']/yt-image/img)[6]", "xpath:idRelative"],
+        ["xpath=//ytd-compact-video-renderer[4]/div/ytd-thumbnail/a/yt-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5687d663-896f-4a65-b0a9-05c42df68a16",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(4) > #dismissible #thumbnail #text",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #dismissible #thumbnail #text", "css:finder"],
+        ["xpath=(//span[@id='text'])[6]", "xpath:attributes"],
+        ["xpath=(//div[@id='time-status']/span)[6]", "xpath:idRelative"],
+        ["xpath=//ytd-compact-video-renderer[4]/div/ytd-thumbnail/a/div/ytd-thumbnail-overlay-time-status-renderer/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'16.22')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d348008-d126-4083-b11a-82422876c388",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(4) > #dismissible #thumbnail #text",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #dismissible #thumbnail #text", "css:finder"],
+        ["xpath=(//span[@id='text'])[6]", "xpath:attributes"],
+        ["xpath=(//div[@id='time-status']/span)[6]", "xpath:idRelative"],
+        ["xpath=//ytd-compact-video-renderer[4]/div/ytd-thumbnail/a/div/ytd-thumbnail-overlay-time-status-renderer/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'16.22')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c322bb9b-aef9-48de-a7d3-b432dabb7161",
+      "comment": "",
+      "command": "click",
+      "target": "css=#actions-inner > #menu #flexible-item-buttons .yt-spec-touch-feedback-shape__fill",
+      "targets": [
+        ["css=#actions-inner > #menu #flexible-item-buttons .yt-spec-touch-feedback-shape__fill", "css:finder"],
+        ["xpath=//div[@id='flexible-item-buttons']/ytd-download-button-renderer/ytd-button-renderer/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]", "xpath:idRelative"],
+        ["xpath=//ytd-download-button-renderer/ytd-button-renderer/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f521a133-afb8-4947-9653-51130abe1f6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#quality-options > .style-scope:nth-child(2) > #start > #radio #offRadio",
+      "targets": [
+        ["css=#quality-options > .style-scope:nth-child(2) > #start > #radio #offRadio", "css:finder"],
+        ["xpath=(//div[@id='offRadio'])[2]", "xpath:attributes"],
+        ["xpath=(//div[@id='radioContainer']/div)[3]", "xpath:idRelative"],
+        ["xpath=//ytd-settings-radio-option-renderer[2]/div/tp-yt-paper-radio-button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "465ed6a9-4ade-44de-af66-ffcef089ffa9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#download-button .yt-spec-touch-feedback-shape__fill",
+      "targets": [
+        ["css=#download-button .yt-spec-touch-feedback-shape__fill", "css:finder"],
+        ["xpath=//yt-button-renderer[@id='download-button']/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]", "xpath:idRelative"],
+        ["xpath=//yt-button-renderer[3]/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b350c445-888b-43ce-a581-bb6b5103c825",
+    "name": "upload facebook",
+    "commands": [{
+      "id": "ab173017-6991-4c0c-902b-a5199886473a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.facebook.com/?locale=id_ID",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66467089-8122-4392-b044-8b4f7c0e26a3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1454x914",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82eafcb3-36f9-446b-8d16-e0347cc5c9e7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.x6s0dn4:nth-child(2) > .x4k7w5x .x19dipnz",
+      "targets": [
+        ["css=.x6s0dn4:nth-child(2) > .x4k7w5x .x19dipnz", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c90fe9c0-ef58-4606-bb80-d4816533e4aa",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.x6s0dn4:nth-child(2) > .x4k7w5x .x19dipnz",
+      "targets": [
+        ["css=.x6s0dn4:nth-child(2) > .x4k7w5x .x19dipnz", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5517f36-1c31-429f-b40a-d8bfa15c4971",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x78zum5 > .x1l7q5kx",
+      "targets": [
+        ["css=.x78zum5 > .x1l7q5kx", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_PA']/div/div/div/div[3]/div/div/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div/a/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38dd9b2e-24e0-4dcf-b7d5-3d469b0cf617",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x6s0dn4 > .xqtp20y > .x1qjc9v5 > .x1ey2m1c",
+      "targets": [
+        ["css=.x6s0dn4 > .xqtp20y > .x1qjc9v5 > .x1ey2m1c", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_PA']/div/div/div/div[5]/div/div/div[3]/div[2]/div[2]/div/div/div/div/div/div/div/div/div/div/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/div/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "68c99928-089e-4322-afd1-86d483ddc12f",
+    "name": "upload instagram",
+    "commands": [{
+      "id": "1c89a3e5-48c5-4c83-82c8-b9be1a5eba50",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.instagram.com/juneidy__/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebcb8d39-27c1-420d-b977-476f9fee066a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1454x914",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba9e6de5-9a3f-469a-9622-97040e7ec3e7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_aadp",
+      "targets": [
+        ["css=.\\_aadp", "css:finder"],
+        ["xpath=//img[@alt='Ubah Foto Profil']", "xpath:img"],
+        ["xpath=//div[@id='mount_0_0_SL']/div/div/div[2]/div/div/div/div/div[2]/div[2]/section/main/div/header/div/div/div/button/img", "xpath:idRelative"],
+        ["xpath=//button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f4400de-d689-4003-b8bb-d4fd34089d13",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_aadp",
+      "targets": [
+        ["css=.\\_aadp", "css:finder"],
+        ["xpath=//img[@alt='Ubah Foto Profil']", "xpath:img"],
+        ["xpath=//div[@id='mount_0_0_SL']/div/div/div[2]/div/div/div/div/div[2]/div[2]/section/main/div/header/div/div/div/button/img", "xpath:idRelative"],
+        ["xpath=//button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "063cca41-961e-4ddd-967f-3d6360471fb6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_aadp",
+      "targets": [
+        ["css=.\\_aadp", "css:finder"],
+        ["xpath=//img[@alt='Ubah Foto Profil']", "xpath:img"],
+        ["xpath=//div[@id='scrollview']/div/div/div/div/div[2]/div[2]/section/main/div/header/div/div/div/button/img", "xpath:idRelative"],
+        ["xpath=//button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fded0f1-5f4b-498c-8509-5f859db97b01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_a9_0",
+      "targets": [
+        ["css=.\\_a9_0", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Unggah Foto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ce1426ae-6b5f-4a67-b045-a8a4f6cbb5b2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c70a34ab-502a-4134-933b-64e0f29a2a21"]
+  }],
+  "urls": ["https://www.youtube.com/", "https://www.youtube.com/watch?v=N3CALZudhkI", "https://www.youtube.com/watch?v=FgRePp-_U44", "https://www.facebook.com/?locale=id_ID", "https://www.instagram.com/juneidy__/"],
+  "plugins": []
+}
